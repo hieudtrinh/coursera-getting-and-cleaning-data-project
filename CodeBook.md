@@ -100,5 +100,5 @@ The first two columns in the tidydata.txt, subject and activity, are used as ide
 ## Produce HTML and PDF output files
 ```
 library("rmarkdown")
-rmarkdown::render("README.md",output_format = "all")
+rmarkdown::render("CodeBook.md",output_format = "all")
 ```
